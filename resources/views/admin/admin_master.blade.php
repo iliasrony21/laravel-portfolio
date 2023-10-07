@@ -30,6 +30,7 @@
        <!-- toastr css   -->
        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
         <!-- toastr css   -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap.tagsinput/0.8.0/bootstrap-tagsinput.css" >
     </head>
 
     <body data-topbar="dark">
@@ -99,7 +100,7 @@
 
         <!-- App js -->
         <script src="{{ asset('backend/assets/js/app.js') }}"></script>
-
+        <script src="https://cdn.jsdelivr.net/bootstrap.tagsinput/0.8.0/bootstrap-tagsinput.min.js" ></script>
 
          <!-- toastr   -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
