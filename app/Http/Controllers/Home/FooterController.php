@@ -22,7 +22,7 @@ class FooterController extends Controller
          Footer::findOrFail($footer_id)->update([
                 'number' => $request->number,
                 'short_description' => $request->short_description,
-                'adress' => $request->adress,
+                'address' => $request->address,
                 'email' => $request->email,
                 'facebook' => $request->facebook,
                 'twitter' => $request->twitter,
@@ -36,5 +36,5 @@ class FooterController extends Controller
 
         return redirect()->back()->with($notification);
 
-    } // end method 
+    } // end method
 }

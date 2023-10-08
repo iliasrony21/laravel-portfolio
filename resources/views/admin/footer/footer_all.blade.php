@@ -38,9 +38,9 @@
             <!-- end row -->
 
             <div class="row mb-3">
-                <label for="example-text-input" class="col-sm-2 col-form-label">Adress</label>
+                <label for="example-text-input" class="col-sm-2 col-form-label">Address</label>
                 <div class="col-sm-10">
-                    <input name="adress" class="form-control" type="text" value="{{ $allfooter->adress }}"  id="example-text-input">
+                    <input name="address" class="form-control" type="text" value="{{ $allfooter->address }}"  id="example-text-input">
                 </div>
             </div>
             <!-- end row -->
