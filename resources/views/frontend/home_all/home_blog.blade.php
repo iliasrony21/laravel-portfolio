@@ -6,7 +6,7 @@
  <section class="blog">
                 <div class="container">
                     <div class="row gx-0 justify-content-center">
-
+<h1 class="title text-center mb-5 pb-5">Blog parts</h1>
     @foreach($blogs as $item)
     <div class="col-lg-4 col-md-6 col-sm-9">
         <div class="blog__post__item">

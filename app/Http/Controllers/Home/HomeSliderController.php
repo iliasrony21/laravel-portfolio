@@ -59,4 +59,11 @@ class HomeSliderController extends Controller
         } // end Else
 
      } // End Method
+
+     public function DownloadCv(){
+        $file = public_path('files/cv.pdf');
+        
+       return response()->download($file);
+
+     }
 }

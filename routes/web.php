@@ -47,7 +47,7 @@ Route::controller(DemoController::class)->group(function () {
 
  // Admin All Route
  Route::middleware(['auth'])->group(function () {
-    
+
 Route::controller(AdminController::class)->group(function () {
     Route::get('/admin/logout', 'destroy')->name('admin.logout');
     Route::get('/admin/profile', 'Profile')->name('admin.profile');
@@ -64,6 +64,9 @@ Route::controller(AdminController::class)->group(function () {
  Route::controller(HomeSliderController::class)->group(function () {
     Route::get('/home/slide', 'HomeSlider')->name('home.slide');
     Route::post('/update/slider', 'UpdateSlider')->name('update.slider');
+    Route::get('/download/cv', 'DownloadCv')->name('cv.download');
+
+
 
 });
  // About Page All Route
